@@ -45,7 +45,7 @@ static void traffic_lights_binary(uint8_t val){
     }
 }
 
-// >>> linking the system together
+// >>> linking all lights up in sequence
 int main(){
     const size_t light_state = sizeof(cycle)/sizeof(cycle[0]);
     const unsigned int unit_second=10;
